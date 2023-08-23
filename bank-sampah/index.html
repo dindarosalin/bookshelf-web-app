@@ -1,20 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,600&display=swap"
+      rel="stylesheet"
+    />
     <title>Bank Sampah</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
+      <nav>
+        <ul>
+          <li><img src="assets/logo.png" style="width: 40px" /></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#berita">Berita</a></li>
+          <li><a href="#sukarelawan">Sukarelawan</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
 
+    <main>
+      <div class="content">
+        <aside id="dashboard">
+          <strong>Bergabung untuk Bumi mulai dari saya</strong>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="assets/" alt="" />
+        </aside>
+        <aside id="berita">
+          <h2 style="color: white; text-align: center">Berita Terbaru</h2>
+          <article class="card">
+            <img
+              src="assets/Recycling.jpg"
+              alt="dok 1"
+              class="featured-image"
+            />
+            <h4>Bersihkan 4 ton sampah di xxx</h4>
+            <p>
+              12 Februari 2022
+              <a href="berita.html">baca selengkapnya</a>
+            </p>
+          </article>
+          <article class="card">
+            <img src="assets/sungai.jpg" alt="dok 2" class="featured-image" />
+            <h4>Bersihkan sungai warga</h4>
+            <p>
+              12 Februari 2022
+              <a href="berita.html">baca selengkapnya</a>
+            </p>
+          </article>
+          <article class="card">
+            <img src="assets/anak.jpg" alt="dok 3" class="featured-image" />
+            <h4>Membersihkan sampah di sekolah</h4>
+            <p>
+              12 Februari 2022
+              <a href="berita.html">baca selengkapnya</a>
+            </p>
+          </article>
+        </aside>
+        <aside id="sukarelawan">
+          <img src="assets/logo.png" alt="" style="height: 200px" />
+          <div>
+            <h2>Bergabung menjadi Sukarelawan</h2>
+            <p>nganu sekali bermakna selamanya</p>
+            <div>
+              <a href="#">Bergabung disini</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <aside class="card">
+        <h2>Setor Sampah</h2>
+        <p>Setorkan sampah daur ulangmu untuk Bumi melalui kami.</p>
+        <div>
+          <a href="#">akses disini</a>
+        </div>
+      </aside>
     </main>
-    <footer>
-        
-    </footer>
-</body>
+    <footer>&copy; 2023, Bank Sampah Sentral Banyuwangi dindarosalin</footer>
+  </body>
 </html>

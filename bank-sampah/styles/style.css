@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,600&display=swap");
+
+body {
+  font-family: "DM sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #285430;
+  padding: 2px;
+  position: sticky;
+  top: 0;
+  height: 60px;
+}
+
+nav ul {
+  padding-inline: 4rem;
+
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 50px;
+  padding-top: 15px;
+  display: flex;
+  gap: 1.5rem;
+  background-color: #fefefe;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  height: max-content;
+}
+
+#dashboard {
+  background-color: white;
+  height: 600px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#berita {
+  background-color: #285430;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+#sukarelawan {
+  background-color: white;
+  height: fit-content;
+  text-align: left;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  align-items: left;
+  display: flex;
+}
+
+#sukarelawan img {
+  flex: 1;
+  max-width: fit-content; /* Ubah sesuai kebutuhan */
+  margin-right: 20px; /* Berikan margin antara gambar dan teks */
+}
+
+#sukarelawan div {
+  flex: 1;
+}
